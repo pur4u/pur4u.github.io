@@ -1,194 +1,281 @@
 html, body {
-  height: 100%;
-  margin: 0;
+    height: 100%;
+    margin: 0;
 }
+
 body {
-  -ms-flex-align: center;
-  align-items: center;
-  background: #eee;
-  display: -ms-flexbox;
-  display: flex;
-  font: 16px/1.1 "Montserrat", sans-serif;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #eee;
+    display: -ms-flexbox;
+    display: flex;
+    font: 16px/1.1 "Montserrat", sans-serif;
 }
+
+p {
+    font-size: 12px;
+}
+
+a {
+    color: #cb231c;
+    /*text-transform: uppercase;*/
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+.upper {
+    text-transform: uppercase;
+}
+a:hover {
+    color: #000;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
 .card,
 .developer {
-  background: #fff;
-  box-shadow: 0 8px 3px -1px rgba(0, 0, 0, .7);
-  height: 21em;
-  margin: 0 auto;
-  padding: 2em;
-  position: relative;
-  width: 15em;
+    background: #fff;
+    box-shadow: 0 8px 3px -1px rgba(0, 0, 0, .7);
+    height: 21em;
+    margin: 0 auto;
+    padding: 2em;
+    position: relative;
+    width: 15em;
 }
+
 .developer {
-  background: #cb231c;
-  box-shadow: 0 3px 2px rgba(0, 0, 0, .8);
-  margin: -2em -2em;
-  position: absolute;
-  transform: rotate(-8deg);
-  z-index: -1;
+    background: #cb231c;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .8);
+    margin: -2em -2em;
+    position: absolute;
+    transform: rotate(-8deg);
+    z-index: -1;
 }
+
 h1 {
-  font-size: 2.5em;
-  margin: 0;
-  text-transform: uppercase;
-  width: 90%;
+    font-size: 2.5em;
+    margin: 0;
+    text-transform: uppercase;
+    width: 90%;
 }
+
 em {
-  color: #cc2119;
-  font-style: normal;
+    color: #cc2119;
+    font-style: normal;
 }
+
 h2 {
-  font-size: 22px;
+    font-size: 18px;
+    font-weight: bold;
 }
+
+.old-work {
+    position: absolute;
+    position: absolute;
+    top: -50px;
+    right: -38px;
+    cursor: pointer;
+}
+
 .heart {
-  position: absolute;
-  bottom: 4em;
-  right: 4em;
+    position: absolute;
+    bottom: 4em;
+    right: 4em;
 }
-/*.heart:before,*/
-/*.heart:after {*/
-  /*background: #cd231b;*/
-  /*border-radius: 50px 50px 0 0;*/
-  /*content: "";*/
-  /*height: 25px;*/
-  /*left: 15px;*/
-  /*position: absolute;*/
-  /*transform: rotate(-45deg);*/
-  /*transform-origin: 0 100%;*/
-  /*width: 15px;*/
-/*}*/
-/*.heart:after {*/
-  /*left: 0;*/
-  /*transform: rotate(45deg);*/
-  /*transform-origin: 100% 100%;*/
-/*}*/
 
-
-
+.donate {
+    position: absolute;
+    bottom: 1.9em;
+    left: 2em;
+}
 
 svg {
-  width: 40px;
-  /*position: relative;*/
-  overflow: visible;
-  /*margin: 1vw;*/
-  position: absolute;
-  bottom: 2em;
-  right: 2em;
+    width: 40px;
+    /*position: relative;*/
+    overflow: visible;
+    /*margin: 1vw;*/
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
 }
 
 .circleLeft {
-  fill: transparent;
-  stroke: #585858;
-  stroke-width: 0.5;
-  stroke-dasharray: 312;
-  stroke-dashoffset: 312;
-  transform-origin: 59% 97%;
-  /* Firefox transform-origin bug
-     https://bugzilla.mozilla.org/show_bug.cgi?id=923193 */
-  -moz-transform-origin: 46px 58px;
-  animation: leftCircleAnim 6s infinite;
-  animation-timing-function: cubic-bezier(0.4, -0.03, 0.82, 0.42);
+    fill: transparent;
+    stroke: #585858;
+    stroke-width: 0.5;
+    stroke-dasharray: 312;
+    stroke-dashoffset: 312;
+    transform-origin: 59% 97%;
+    /* Firefox transform-origin bug
+       https://bugzilla.mozilla.org/show_bug.cgi?id=923193 */
+    -moz-transform-origin: 46px 58px;
+    animation: leftCircleAnim 6s infinite;
+    animation-timing-function: cubic-bezier(0.4, -0.03, 0.82, 0.42);
 }
 
 .circleRight {
-  fill: transparent;
-  stroke: #585858;
-  stroke-width: 0.5;
-  stroke-dasharray: 312;
-  stroke-dashoffset: 312;
-  transform-origin: 14% 54%;
-  /*Firefox transform-origin bug*/
-  -moz-transform-origin: 23px 36px;
-  transition: 1s ease all;
-  animation: rightCircleAnim 6s infinite;
-  animation-timing-function: cubic-bezier(0.4, -0.03, 0.82, 0.42);
+    fill: transparent;
+    stroke: #585858;
+    stroke-width: 0.5;
+    stroke-dasharray: 312;
+    stroke-dashoffset: 312;
+    transform-origin: 14% 54%;
+    /*Firefox transform-origin bug*/
+    -moz-transform-origin: 23px 36px;
+    transition: 1s ease all;
+    animation: rightCircleAnim 6s infinite;
+    animation-timing-function: cubic-bezier(0.4, -0.03, 0.82, 0.42);
 }
 
 .rect {
-  fill: transparent;
-  stroke: #585858;
-  stroke-width: 0.5;
-  transition: 1s ease all;
-  transform-origin: 64% 57%;
-  /* Firefox transform-origin bug */
-  -moz-transform-origin: 45px 36px;
-  stroke-dasharray: 303;
-  stroke-dashoffset: 303;
-  animation: rectAnim 6s infinite;
-  animation-timing-function: cubic-bezier(0.4, -0.03, 0.82, 0.42);
+    fill: transparent;
+    stroke: #585858;
+    stroke-width: 0.5;
+    transition: 1s ease all;
+    transform-origin: 64% 57%;
+    /* Firefox transform-origin bug */
+    -moz-transform-origin: 45px 36px;
+    stroke-dasharray: 303;
+    stroke-dashoffset: 303;
+    animation: rectAnim 6s infinite;
+    animation-timing-function: cubic-bezier(0.4, -0.03, 0.82, 0.42);
 }
 
 .heart {
-  stroke-dasharray: 332;
-  stroke-dashoffset: 332;
-  transition: 1s ease-in all;
-  stroke: #cb231c;
-  stroke-width: 0.5;
-  fill: transparent;
-  animation: heartAnim 6s infinite;
-  animation-timing-function: cubic-bezier(0.4, -0.03, 0.82, 0.42);
+    stroke-dasharray: 332;
+    stroke-dashoffset: 332;
+    transition: 1s ease-in all;
+    stroke: #cb231c;
+    stroke-width: 0.5;
+    fill: transparent;
+    animation: heartAnim 6s infinite;
+    animation-timing-function: cubic-bezier(0.4, -0.03, 0.82, 0.42);
 }
 
 @keyframes rectAnim {
-  0% { stroke-dashoffset: 312; }
-  10% { stroke-dashoffset: 122; }
-  35% { transform: rotate(0deg); }
-  37% { stroke: #585858; }
-  45% { transform: rotate(-45deg); stroke: #e8e8e8; }
-  74% { opacity: 1 }
-  75% { opacity: 0 }
-  100% {
-    stroke-dashoffset: 122;
-    transform: rotate(-45deg);
-    stroke: #e8e8e8;
-    opacity: 0;
-  }
+    0% {
+        stroke-dashoffset: 312;
+    }
+    10% {
+        stroke-dashoffset: 122;
+    }
+    35% {
+        transform: rotate(0deg);
+    }
+    37% {
+        stroke: #585858;
+    }
+    45% {
+        transform: rotate(-45deg);
+        stroke: #e8e8e8;
+    }
+    74% {
+        opacity: 1
+    }
+    75% {
+        opacity: 0
+    }
+    100% {
+        stroke-dashoffset: 122;
+        transform: rotate(-45deg);
+        stroke: #e8e8e8;
+        opacity: 0;
+    }
 }
 
-
 @keyframes leftCircleAnim {
-  10% { stroke-dashoffset: 312; }
-  25% { stroke-dashoffset: 122; transform: translateY(0); }
-  35% { transform: translateY(-22px); }
-  37% { stroke: #585858; }
-  45% { transform: translateY(-22px) rotate(-45deg); stroke: #e8e8e8; }
-  74% { opacity: 1 }
-  75% { opacity: 0 }
-  100% {
-    stroke-dashoffset: 122;
-    transform: translateY(-22px) rotate(-45deg);
-    stroke: #e8e8e8;
-    opacity: 0;
-  }
+    10% {
+        stroke-dashoffset: 312;
+    }
+    25% {
+        stroke-dashoffset: 122;
+        transform: translateY(0);
+    }
+    35% {
+        transform: translateY(-22px);
+    }
+    37% {
+        stroke: #585858;
+    }
+    45% {
+        transform: translateY(-22px) rotate(-45deg);
+        stroke: #e8e8e8;
+    }
+    74% {
+        opacity: 1
+    }
+    75% {
+        opacity: 0
+    }
+    100% {
+        stroke-dashoffset: 122;
+        transform: translateY(-22px) rotate(-45deg);
+        stroke: #e8e8e8;
+        opacity: 0;
+    }
 }
 
 @keyframes rightCircleAnim {
-  10% { stroke-dashoffset: 312; }
-  25% { stroke-dashoffset: 122; transform: translateX(0); }
-  35% { transform: translateX(22px); }
-  37% { stroke: #585858; }
-  45% { transform: translateX(22px) rotate(-45deg); stroke: #e8e8e8; }
-  74% { opacity: 1 }
-  75% { opacity: 0 }
-  100% {
-    stroke-dashoffset: 122;
-    stroke: #e8e8e8;
-    transform: translateX(22px) rotate(-45deg);
-    opacity: 0
-  }
+    10% {
+        stroke-dashoffset: 312;
+    }
+    25% {
+        stroke-dashoffset: 122;
+        transform: translateX(0);
+    }
+    35% {
+        transform: translateX(22px);
+    }
+    37% {
+        stroke: #585858;
+    }
+    45% {
+        transform: translateX(22px) rotate(-45deg);
+        stroke: #e8e8e8;
+    }
+    74% {
+        opacity: 1
+    }
+    75% {
+        opacity: 0
+    }
+    100% {
+        stroke-dashoffset: 122;
+        stroke: #e8e8e8;
+        transform: translateX(22px) rotate(-45deg);
+        opacity: 0
+    }
 }
 
 @keyframes heartAnim {
-  45% { stroke-dashoffset: 332; }
-  55% { stroke-dashoffset: 102; }
-  58% { fill: transparent; }
-  65% { fill: #cb231c; }
-  85% { opacity: 1; }
-  95% { opacity: 0; }
-  100% {
-    stroke-dashoffset: 102;
-    fill: #cb231c;
-    opacity: 0;
-  }
+    45% {
+        stroke-dashoffset: 332;
+    }
+    55% {
+        stroke-dashoffset: 102;
+    }
+    58% {
+        fill: transparent;
+    }
+    65% {
+        fill: #cb231c;
+    }
+    85% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        stroke-dashoffset: 102;
+        fill: #cb231c;
+        opacity: 0;
+    }
 }
