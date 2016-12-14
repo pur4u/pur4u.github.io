@@ -39,6 +39,26 @@ a:hover {
     transition: all .3s ease-in;
 }
 
+a img {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    transform: scale(1);
+}
+
+a:hover img {
+    -ms-transform: rotate(-15deg) scale(1.1); /* IE 9 */
+    -webkit-transform: rotate(15deg) scale(1.1); /* Chrome, Safari, Opera */
+    transform: rotate(-15deg) scale(1.1);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
 .card,
 .developer {
     background: #fff;
