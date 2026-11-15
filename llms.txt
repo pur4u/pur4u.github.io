@@ -1,0 +1,24 @@
+# PUR RED LAB
+
+> Professional profile of Lincă Ovidiu, a Software Developer and Enterprise Architect based in Bucharest, Romania.
+
+Lincă Ovidiu has 18+ years of experience designing scalable systems for fintech, banking and high-traffic digital platforms. His expertise includes enterprise backend architecture, high-scale data and cloud infrastructure, AI-enabled workflows, and modern frontend development.
+
+Core technologies include Laravel (14+ years), WordPress (8+ years), PHP 8, Node.js, Go, TypeScript, React, Vue.js, Kafka, Kubernetes, Docker, AWS, PostgreSQL, MySQL, ClickHouse, LLMs, RAG, Ollama, vLLM, MCP and n8n.
+
+Business contact: contact@pur4u.ro or +40.726.519.320. Availability: available for projects.
+
+## Pages
+
+- [Professional profile](/): Professional summary, technical expertise, experience and business contact details.
+
+## Professional profiles
+
+- [LinkedIn](https://www.linkedin.com/in/pur4u): Professional profile and career history.
+- [GitHub](https://github.com/pur4u): Public code repositories and development activity.
+- [Facebook](https://www.facebook.com/pur4u): Public social profile.
+
+## Contact
+
+- [Email Lincă Ovidiu](mailto:contact@pur4u.ro): Business enquiries and project discussions.
+- [Call Lincă Ovidiu](tel:+40726519320): Business mobile contact.
