@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="__l5e/pur_red_lab_opt_a_dark_crop.png">
-  <source media="(prefers-color-scheme: light)" srcset="__l5e/pur_red_lab_opt_a_light_crop.png">
-  <img src="__l5e/pur_red_lab_opt_a_light_crop.png" alt="PUR RED LAB" width="500">
+  <source media="(prefers-color-scheme: dark)" srcset="brand/pur_red_lab_opt_a_dark_crop.png">
+  <source media="(prefers-color-scheme: light)" srcset="brand/pur_red_lab_opt_a_light_crop.png">
+  <img src="brand/pur_red_lab_opt_a_light_crop.png" alt="PUR RED LAB" width="500">
 </picture>
 
 **Lincă Ovidiu — Software Developer & Enterprise Architect**
@@ -40,7 +40,7 @@ Areas of expertise: enterprise backend architecture, high-scale data and cloud i
 .
 ├── index.html          # main page
 ├── assets/             # compiled JS and CSS
-├── __l5e/              # logo and other site assets
+├── brand/              # logo and other site assets
 ├── favicon.*           # site icons
 ├── site.webmanifest    # web app manifest
 ├── _headers            # HTTP headers
